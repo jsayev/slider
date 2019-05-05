@@ -1,0 +1,72 @@
+div.sliderParent {
+    position: relative;
+    height: 300px;
+    background-color: transparent;
+}
+
+.sliderParent>div {
+    border-radius: 10px;
+    position: absolute;
+    transition-duration: .3s;
+    box-shadow: 0 0 20px rgb(99, 99, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.farRemove {
+    width: 10%;
+    height: 150px;
+    z-index: 8;
+}
+
+.midRemove {
+    width: 15%;
+    height: 200px;
+    z-index: 9;
+}
+
+.centerRemove {
+    width: 20%;
+    height: 250px;
+    z-index: 10;
+}
+
+.sliderChild {
+    background-color: grey;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.left,
+.right {
+    width: 50px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+@media screen and (max-width:480px){
+
+}
+@media (min-width:481px) and (max-width:768px){
+
+}
+@media (min-width:769px) and (max-width:992px){
+
+}
+@media (min-width:993px) and (max-width:1200px){
+
+}
+@media screen and (min-width:1201px){
+
+}
